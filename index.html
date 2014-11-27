@@ -2,6 +2,36 @@
 layout: default
 ---
 
+
+<body>
+<div id="layout" class="wrapper">
+    <div class="sidebar">
+        <div class="header">
+           <nav class="nav">
+   <ul class="nav-list">
+   <li><a href="/cv/">Curriculum Vitae</a></li>
+   <li><a href="/papers/">Papers</a></li>
+   <li><a href="/">Blog</a></li>
+   </ul>
+</nav>       
+</div>
+
+  <div class="content">
+
+  <p> I am a PhD student currently working with Dr. Daniel Stouffer 
+  at the University of Canterbury, Christchurch, New Zealand. Most of
+  my work centres around understanding the ways in which species fit
+  into food webs.</p>
+
+  <p> Please check out my CV and papers. I also have a blog where I
+  write lay summaries of papers, talks, and other ecology-themed things. </p>.
+
+</div>
+</div>
+</div>
+
+</body>
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">    
@@ -15,20 +45,4 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
-</div>
-
-
-<div id="layout" class="wrapper">
-    <div class="sidebar">
-        <div class="header">
-           <nav class="nav">
-   <ul class="nav-list">
-   <li><a href="/">Home</a></li>
-   <li><a href="/cv/">Curriculum Vitae</a></li>
-   <li><a href="/blog/">Blog</a></li>
-   <li><a href="/papers/">Papers</a></li>
-   </ul>
-</nav>       
-</div>
-</div>
 </div>
