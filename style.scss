@@ -150,7 +150,7 @@ img {
 }
 
 .masthead {
-  padding: 50px 0;
+  padding: 20px 0;      # This padds the bottom.
   border-bottom: 1px solid $lightGray;
   
   @include mobile {
@@ -176,7 +176,7 @@ img {
 }
 
 .site-info {
-  float: left;
+  float: right;
 
   @include mobile {
     float: none;
