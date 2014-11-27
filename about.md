@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a PhD student working with Dr. Daniel Stouffer (www.stoufferlab.org) at the University of Canterbury in Christchurch, New Zealand.
 
 ### More Information
 
@@ -12,4 +12,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[alyssa.cirtwill@gmail.com](mailto:alyssa.cirtwill@gmail.com)
