@@ -154,10 +154,14 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+
   background-color: $white;
   background-image: url("//upload.wikimedia.org/wikipedia/commons/thumb/7/76/Spider_web_necklace_with_pearls_of_dew.JPG/256px-Spider_web_necklace_with_pearls_of_dew.JPG");
-  background-size: 100% 100%;
+  background-size: 110% 110%;
   background-repeat: no-repeat;
+  opacity: 0.5;
+
+
   @include mobile {
     text-align: center;
   }
@@ -202,7 +206,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $Gainsboro;
   font-size: 16px;
   
   @include mobile {
