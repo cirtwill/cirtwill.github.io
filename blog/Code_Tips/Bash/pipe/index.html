@@ -1,0 +1,83 @@
+---
+layout: default
+---
+<style type="text/css">
+<!--
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+-->
+</style>
+
+
+
+<title>Bash: The Pipe is Powerful</title>
+
+  </head>
+<body>
+
+<div id="layout" class="wrapper">
+    <div class="sidebar">
+        <div class="header">
+
+</div>
+    <div class="content">
+
+    <p> 
+The pipe is that '|' that lives at the right of the keyboard.
+It's also a verb, as in "to pipe out".
+In essence, what the pipe does is take output from one function and feed it into another. 
+This allows you to combine several commands into one line, without defining extra variables or saving unnecessary files.
+</p>
+<br>
+
+<p>
+You can use the pipe with any bash command that produces an output. The first couple examples are from an introductory Software Carpentry course I took part in today:
+</p>
+<br>
+<p>
+1) Say you have a file with a column of numbers and a column of text. If you only want to see the lowest-ranked
+number in the file, you'd use 
+<br>
+sort -n <filename> | head -1
+<br>
+where the sort -n command arranges the file numerically and the head -1 command prints the first line of the sorted file.
+</p>
+<br>
+<p>
+2) You can also use the pipe to make it easier to look for previous commands. If you want to see the last few commands you've done, use:
+<br>
+history | tail
+<br>
+which will return the last few commands (the tail) in your history. Each command will be listed with an ID number. To repeat a previous command, use: 
+<br>
+! <command ID>
+</p>
+<br>
+<p>
+3) If you want to search for a specific command that could be anywhere in your history, use:
+<br>
+history | grep "<command>" 
+<br>
+This will return a list of all the commands in your history which include the quoted command. This is really handy for those times when something worked an hour ago but you can't remember what you did exactly. 
+</p>
+<br>
+<p>
+These are pretty basic uses for the pipe, but more complicated scripts follow the same pattern.
+</p>
+    </div>
+    </div>
+    
+  </ul>
+</div>
+
+
+    </div>
+</div>
+
+
+</body>
