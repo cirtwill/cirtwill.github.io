@@ -177,7 +177,7 @@ img {
   float: left;
   width: 70px;
   height: 70px;
-  img < src="/images/test_logo.png",width=50>;
+  background-image: url("/images/test_logo.png");
   margin-right: 15px;
 
   @include mobile {
