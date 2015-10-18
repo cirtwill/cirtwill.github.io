@@ -165,8 +165,8 @@ img {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
   background-color: $white;
-  /*  background-image: url("/images/header_web.JPG.png"); */
-  background-size: 110% 110%;
+  background-image: url("/images/test_logo.png"); 
+  background-size: 30% 30%;
   background-repeat: no-repeat;
   @include mobile {
     text-align: center;
